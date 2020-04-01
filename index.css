@@ -1,35 +1,89 @@
 * {
     box-sizing: border-box;
+    width: 100%;
 }
 body {
-    text-align: center;
     margin: 0;
     padding: 0;
-}
-h2 {
-    margin: 0;
-}
-nav {
-    background-color: darkgray;
-    position: fixed;
-    width: 100%;
-    min-height: 50px;
 }
 header {
     background-color: white;
     min-height: 200px;
-    display: inline-block;
+    display: flex;
     padding-top:50px;
+    font-family: 'Raleway', sans-serif;
+    font-size:16px;
+    padding-left: 10px;
+}
+.web{
+    display: block;
+    padding-left: 17px;
+    padding-top: 20px;
+}
+.solve {
+    display: block;
+    padding-left: 32px;
+    padding-top: 20px;
+}
+h2 {
+    font-family: 'Rubik', sans-serif;
+    font-size: 18px;
+    margin: 0;
+}
+p {
+    font-family: 'Rubiik', sans-serif;
+    font-size: 16px;
+    margin: 0;
+}
+nav {
+    background-color: black;
+    color: white;
+    position: fixed;
+    width: 100%;
+    min-height: 50px;
+    display: flex;
+    text-align: end;
+    align-items: center;
+}
+.fa-bars {
+    color: orange;
+    
+
+    padding-right: 2%;
 }
 .bio {
     background-color: lightgray;
-    min-height: 200px;
+    padding-left: 10px;
 }
 .projects {
     background-color: gray;
-    min-height: 200px;
+    padding-left: 10px;
+}
+img {
+    height: auto;
+    width: 60%;
+    padding-right: 10px;
 }
 footer {
+    /* width: 100%; */
+    display: flex;
     background-color: lightgray;
     min-height: 50px;
+    justify-items: flex-end;
+    align-items: center;
+}
+.email {
+    display: flex;
+    justify-content: center;
+    background-color: red;
+}
+.github {
+    display: flex;
+    justify-content: center;
+    background-color: yellow;
+} 
+.test {
+    display: flex;
+    justify-content: center;
+    background-color: aqua;
 }
