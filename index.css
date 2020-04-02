@@ -122,3 +122,8 @@ footer {
     width: 32px;
     height: 32px;
 }
+@media screen and (min-width: 480px) {
+    nav {
+    display: none;
+    }
+}
