@@ -135,7 +135,7 @@ footer {
     display: none;
     }
     .bigScreen {
-        content: url("pics/desktopScreenShot.png");
+        /* content: url("pics/desktopScreenShot.png"); */
         float: left;
         width: 60%;
     }
